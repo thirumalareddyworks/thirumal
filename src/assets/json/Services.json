@@ -1,0 +1,45 @@
+[
+    {
+        "icon":"faCoffee",
+        "title":"Structure Cabling",
+        "description":"The high-speed transfer of data around buildings, through cities, across countries and around the world is now of vital importance to businesses. Data traffic is rapidly overtaking voice traffic, both on fixed and wireless networks."
+        
+    },
+    
+    {
+        "icon":"faCoffee",
+        "title":"CONSULTANCY & SURVEYS",
+        "description":"We work with the clients to understand business objective and propose IT network solutions geared to fit the business direction of our customers.We have the ability to provide expert technical help and can advise on future technologies and the best solutions for individual client needs."
+        
+    },
+    
+    {
+        "icon":"faCoffee",
+        "title":"PROJECT MANAGEMENT",
+        "description":"Dataxonhas gained extensive expertise in the field of network installations, with over a decades experience in working with carriers across the country.Our installations operation is tightly co-ordinated by an experienced project management group."
+        
+    },
+    
+    {
+        "icon":"faCoffee",
+        "title":"TEST & COMMISSIONING",
+        "description":"The Test, Commissioning & Integration team was established to meet the growing need for multi-vendor installation and commissioning. Dataxon has acquired the technical resources to provide this service and is conversant in the use of many OEM technologies with seamless integrations multiple networks."
+        
+    },
+
+    {
+        "icon":"faCoffee",
+        "title":"IT MANAGEMENT SERVICES",
+        "description":"IT outsourcing provides access to highly-skilled people without the expense of maintaining a large in-house staff of IT personnel. Rely on our high-tech and professional team of IT Management services experts for reliable computer support."
+        
+    },
+    
+    {
+        "icon":"faCoffee",
+        "title":"FIBRE SERVICES",
+        "description":"Dataxon provides complete project management, installation and test solutions to meet demand for fiber networks to support telecom and data infrastructures such as fast gigabit Ethernet, ATM, SONNET,ADSL and VoIP."
+        
+    }    
+    
+    
+]

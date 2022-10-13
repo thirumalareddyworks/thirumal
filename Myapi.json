@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 6,
+      "name": "kumar6",
+      "email": "kumar6@gmail.com",
+      "phone": 1213141516
+    },
+    {
+      "name": "thirumal",
+      "email": "thirumal@gmail.com",
+      "phone": "911036466",
+      "id": 7
+    }
+  ],
+  "bookings": [
+    {
+      "sno": 1,
+      "Datebooking": "30-05-2022",
+      "product": "MI MOBILE"
+    },
+    {
+      "sno": 2,
+      "Datebooking": "01-06-2022",
+      "product": "OPPO MOBILE"
+    },
+    {
+      "sno": 3,
+      "Datebooking": "02-06-2022",
+      "product": "VIVO MOBILE"
+    },
+    {
+      "sno": 4,
+      "Datebooking": "03-06-2022",
+      "product": "ONEPLUS MOBILE"
+    },
+    {
+      "sno": 5,
+      "Datebooking": "04-06-2022",
+      "product": "POCO MOBILE"
+    },
+    {
+      "sno": 6,
+      "Datebooking": "05-06-2022",
+      "product": "TECHNO MOBILE"
+    }
+  ],
+  "admins": [
+    {
+      "s.no": 1,
+      "uname": "kalyan1",
+      "mobile": 1234567890
+    },
+    {
+      "s.no": 2,
+      "uname": "kalyan2",
+      "mobile": 1212341123
+    },
+    {
+      "s.no": 3,
+      "uname": "kalyan3",
+      "mobile": 6546578654
+    },
+    {
+      "s.no": 4,
+      "uname": "kalyan4",
+      "mobile": 1212121221
+    },
+    {
+      "s.no": 5,
+      "uname": "kalyan5",
+      "mobile": 1231233211
+    },
+    {
+      "s.no": 6,
+      "uname": "kalyan6",
+      "mobile": 1122334455
+    }
+  ]
+}

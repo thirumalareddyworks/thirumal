@@ -1,0 +1,85 @@
+<script>
+
+    //user_data in javascript variables
+    //var uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+    //const uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+    //let uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+          
+    
+    
+    //Javascript-Functions
+    //function name(){----}
+    //var variable=function(){----}
+    //var variable=()=>{----}
+    
+    
+    
+    //js-variables insides Functions
+    //function name(){ var variable=value }
+    
+    
+    //js-functions with arguments
+    //function name(argument){----argument----}->  name(value)
+    
+    
+    //js-Access Global variables from Function with Global Object
+    //var globalVariable=value; function name(){   this.globalVariable }
+
+
+
+        //class_outside_variables-> Global variables
+        //var variable=value
+    
+
+
+        //class_declaration & Body
+           class user
+           {
+    
+              //class_properties/variables
+              uid;
+              uname;
+              uemail;
+
+              
+    
+    
+    
+              //class_methods/Functions
+              Myfun(request, id)
+              {
+                var msg=request
+                return `${msg} - ${this.uid = id}<br /> `
+              }
+    
+    
+              Myfun2 = function (request, name) {
+                var msg = request
+                return `${msg} - ${this.uname = name}<br />`
+              }
+    
+              Myfun3 = (request,email) => {
+                var msg = request
+                return `${msg} - ${this.uemail = email}<br />`
+              }
+           }
+    
+    
+    
+    //objec of the class
+    // var objectName=new className
+    var u = new user
+    
+    
+    document.write(`<h3>class Methods Data:</h3>
+
+           ${u.Myfun("Named Function with Argument", 1001)} <br />
+    
+           ${u.Myfun2("Call back Function with Argument", "thirumala")} <br />
+    
+           ${u.Myfun3("Arrow Function with Argument", "thirumala@gmail.com")} <br />
+    
+           `);
+    
+    
+    </script>

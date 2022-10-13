@@ -1,0 +1,67 @@
+<script>
+
+//user_data in javascript variables
+//var uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+//const uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+//let uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+      
+
+
+//Javascript-Functions
+//function name(){----}
+//var variable=function(){----}
+//var variable=()=>{----}
+
+    //class_declaration & Body
+       class user
+       {
+
+          //class_properties/variables
+          uid = 1
+          uname = "thirumala"
+          uemail = "thirumala@gmail.com"
+
+
+
+          //class_methods/Functions
+          Myfun()
+          {
+            return `Named Functions In Class without Function Keyword `
+          }
+
+
+          Myfun2 = function(){
+            return `Ananemous Functions In Class without Function Keyword `
+          }
+
+          Myfun3 = ()=>
+          {
+            return `Arrow Functions In Class without Function Keyword `
+          }
+       }
+
+
+
+//objec of the class
+// var objectName=new className
+var u = new user
+
+       document.write(`<h3>class properties Data:</h3>
+       UID is:${u.uid} <br />
+       UNAME is:${u.uname} <br />
+       UEMAIL is:${u.uemail} <br />
+
+       `)
+
+
+       document.write(`<h3>class Methods Data:</h3>
+       ${u.Myfun()} <br />
+
+       ${u.Myfun2()} <br />
+
+       ${u.Myfun3()} <br />
+
+       `)
+
+
+</script>

@@ -1,0 +1,27 @@
+<script>
+
+//Parent_Class
+class admin
+{
+    adminFun()
+    {
+        return "This is AdminFunction"
+    }
+}
+
+var a=new admin
+ document.write(`ParentClass-${a.adminFun()}<br /><br />`)
+
+//Child_Class
+class user
+{
+    userFun()
+    {
+        return "This is UserFunction"
+    }
+}
+
+var u=new user
+ document.write(`ChildClass-${u.userFun()}<br /><br />`)
+ 
+</script>

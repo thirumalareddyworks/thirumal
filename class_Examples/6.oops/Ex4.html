@@ -1,0 +1,82 @@
+<script>
+
+//user_data in javascript variables
+//var uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+//const uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+//let uid = 1, uname = "thirumala", uemail = "thirumala@gmail.com"
+      
+
+
+//Javascript-Functions
+//function name(){----}
+//var variable=function(){----}
+//var variable=()=>{----}
+
+
+
+//js-variables insides Functions
+//function name(){ var variable=value }
+
+
+//js-functions with arguments
+//function name(argument){----argument----}->  name(value)
+
+
+
+
+    //class_declaration & Body
+       class user
+       {
+
+          //class_properties/variables
+          uid = 1
+          uname = "thirumala"
+          uemail = "thirumala@gmail.com"
+
+
+
+          //class_methods/Functions
+          Myfun(request)
+          {
+            var msg=request
+            return `${msg}<br /> `
+          }
+
+
+          Myfun2 = function(request){
+            var msg=request
+            return `${msg}<br />`
+          }
+
+          Myfun3 = (request)=>
+          {
+            var msg=request
+            return `${msg}<br />`
+          }
+       }
+
+
+
+//objec of the class
+// var objectName=new className
+var u = new user
+
+       document.write(`<h3>class properties Data:</h3>
+       UID is:${u.uid} <br />
+       UNAME is:${u.uname} <br />
+       UEMAIL is:${u.uemail} <br />
+
+       `)
+
+
+       document.write(`<h3>class Methods Data:</h3>
+       ${u.Myfun("Named Function with Argument")} <br />
+
+       ${u.Myfun2("Call back Function with Argument")} <br />
+
+       ${u.Myfun3("Arrow Function with Argument")} <br />
+
+       `)
+
+
+</script>
