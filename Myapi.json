@@ -1,16 +1,54 @@
 {
   "users": [
     {
-      "id": 6,
-      "name": "kumar6",
-      "email": "kumar6@gmail.com",
-      "phone": 1213141516
-    },
-    {
       "name": "thirumal",
       "email": "thirumal@gmail.com",
-      "phone": "911036466",
-      "id": 7
+      "phone": "9110356466"
+    },
+    {
+      "name": "thirumal1",
+      "email": "thirumal1@gmail.com",
+      "phone": "1122334455"
+    },
+    {
+      "name": "thirumal2",
+      "email": "thirumal2@gmail.com",
+      "phone": "1231231231"
+    },
+    {
+      "name": "thirumal3",
+      "email": "thirumal3@gmail.com",
+      "phone": "1212112211"
+    },
+    {
+      "name": "thirumal4",
+      "email": "thirumal4@gmail.com",
+      "phone": "1314151612"
+    },
+    {
+      "name": "thirumal5",
+      "email": "thirumal5@gmail.com",
+      "phone": "9112121412"
+    },
+    {
+      "name": "thirumal6",
+      "email": "thirumal6@gmail.com",
+      "phone": "8987898789"
+    },
+    {
+      "name": "thirumal7",
+      "email": "thirumal7@gmail.com",
+      "phone": "7128374514"
+    },
+    {
+      "name": "thirumal8",
+      "email": "thirumal8@gmail.com",
+      "phone": "6191765416"
+    },
+    {
+      "name": "thirumal9",
+      "email": "thirumal9@gmail.com",
+      "phone": "9127635789"
     }
   ],
   "bookings": [

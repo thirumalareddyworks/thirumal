@@ -19,7 +19,7 @@ import Itservices from './MainMenu/Itservices.js';
 import Myclass from './Myclass';
 import Lifecycle from './MainMenu/Lifecycle.js';
 import Restapi from './MainMenu/Restapi';
-import view from './MainMenu/RESTAPI/view.js';
+import view from './MainMenu/RESTAPI/view'
 import Edit from './MainMenu/RESTAPI/Edit.js';
 import ReactBootstrap from './MainMenu/ReactBootstrap.js';
 import Signup from './MainMenu/Signup.js';
