@@ -2,7 +2,6 @@
 
 import { Component } from "react";
 import axios from "axios";
-import { indigo } from "@mui/material/colors";
 
 const url = `http://localhost:3003/users`
 
