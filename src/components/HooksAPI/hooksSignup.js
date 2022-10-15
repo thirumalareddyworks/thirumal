@@ -35,7 +35,7 @@ var [userData,setStateUserData]=useState({
     {
         setStateUserData({...userData,[e.target.name]:e.target.value});
     }
-    submitHandler = (e) => {
+    const submitHandler = (e) => {
         {
             e.preventDefault();
 
@@ -62,7 +62,7 @@ var [userData,setStateUserData]=useState({
         <div className='container p-3'>
             <h4 className='py-3  text-center'>User Registration</h4>
         <div className='container w-50'>
-            <form onSubmit={submitHandler.bind(this)}>
+            <form onSubmit={submitHandler}>
             <div class="mb-3">
             <label className='form-label'>Name</label>
             <input type="text" class="form-control" value={uname} name="name" onChange={  formDatahandling.bind(this)} />
